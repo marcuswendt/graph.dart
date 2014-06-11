@@ -1,10 +1,10 @@
 name: graph
-version: 0.0.1
+version: 0.0.2
 author: Marcus Wendt <marcus@field.io>
 description: Graph description library for Dart
 homepage: https://github.com/field/graph.dart
 dependencies:
-  vector_math: '>=1.4.2+1 <2.0.0'
   randomize:
-      git: git@github.com:field/randomize.dart.git
-      version: '>=0.0.7'
+    git: git@github.com:field/randomize.dart.git
+    version: '>=0.0.7'
+  vector_math: '>=1.4.2+1 <2.0.0'

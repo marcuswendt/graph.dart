@@ -94,22 +94,22 @@ abstract class TreeGraphGenerator<V extends TreeVertex>
     graph.matchVertices("sub").forEach((v) {
       v.type = TreeVertex.SUB;
       v.size = 1.0;
-      v.color.setGrey(0.45);
+//      v.color.setGrey(0.45);
     });
     graph.matchVertices("branch").forEach((v) {
       v.type = TreeVertex.BRANCH;
       v.size = 3.0;
-      v.color.setGrey(1.0);
+//      v.color.setGrey(1.0);
     });
     graph.matchVertices("pole").forEach((v) {
       v.type = TreeVertex.POLE;
       v.size = 6.0;
-      v.color.setRGB(1.0, 1.0, 0.0);
+//      v.color.setRGB(1.0, 1.0, 0.0);
     });
     graph.matchVertices("root").forEach((v) {
       v.type = TreeVertex.ROOT;
       v.size = 5.0;
-      v.color.setRGB(1.0, 0.0, 0.0);
+//      v.color.setRGB(1.0, 0.0, 0.0);
     });
     
     return graph;

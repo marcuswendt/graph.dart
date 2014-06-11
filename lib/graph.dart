@@ -22,6 +22,8 @@ part 'src/edge.dart';
 part 'src/group.dart';
 part 'src/graph.dart';
 
+part 'src/parameters.dart';
+
 
 // generators
 part 'src/generators/tree_params.dart';

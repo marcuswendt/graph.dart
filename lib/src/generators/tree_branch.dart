@@ -51,4 +51,8 @@ abstract class TreeBranchGenerator<V extends TreeVertex>
     
     return group;
   }
+  
+  
+  // TODO refactor / extract
+  double lerp(double a, double b, double delta) => a * (1 - delta) + b * delta;
 }
